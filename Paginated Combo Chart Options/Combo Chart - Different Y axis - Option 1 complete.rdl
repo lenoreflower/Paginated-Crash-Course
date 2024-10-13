@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report MustUnderstand="df" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:df="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition/defaultfontfamily" xmlns:am="http://schemas.microsoft.com/sqlserver/reporting/authoringmetadata">
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>5cf95c5d-8d77-4ea5-ac30-876dd6effe44</rd:ReportID>
+  <am:AuthoringMetadata>
+    <am:CreatedBy>
+      <am:Name>PBIRB</am:Name>
+      <am:Version>15.7.1811.11</am:Version>
+    </am:CreatedBy>
+    <am:UpdatedBy>
+      <am:Name>PBIRB</am:Name>
+      <am:Version>15.7.1811.11</am:Version>
+    </am:UpdatedBy>
+    <am:LastModifiedTimestamp>2024-09-05T17:20:21.8399075Z</am:LastModifiedTimestamp>
+  </am:AuthoringMetadata>
+  <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource1">
+      <rd:SecurityType>Integrated</rd:SecurityType>
+      <ConnectionProperties>
+        <DataProvider>ENTERDATA</DataProvider>
+        <ConnectString />
+        <IntegratedSecurity>true</IntegratedSecurity>
+      </ConnectionProperties>
+      <rd:DataSourceID>5b0388b4-e3a1-45db-aded-896c7f867b69</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>DataSource1</DataSourceName>
+        <rd:DesignerState>
+          <DataGrid xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+            <RowNumber>15</RowNumber>
+            <ColumnNumber>6</ColumnNumber>
+            <ColumnName ColumnIndex="0" ColumnWidth="100" DataType="String">Month</ColumnName>
+            <ColumnName ColumnIndex="1" ColumnWidth="100" DataType="String">Year</ColumnName>
+            <ColumnName ColumnIndex="2" ColumnWidth="100" DataType="String">MonthNumber</ColumnName>
+            <ColumnName ColumnIndex="3" ColumnWidth="146" DataType="String">Sales</ColumnName>
+            <ColumnName ColumnIndex="4" ColumnWidth="100" DataType="String">Budget</ColumnName>
+            <ColumnName ColumnIndex="5" ColumnWidth="100" DataType="String">SalespersonHeadcount</ColumnName>
+            <Data ColumnIndex="0" RowIndex="0">January</Data>
+            <Data ColumnIndex="1" RowIndex="0">2023</Data>
+            <Data ColumnIndex="2" RowIndex="0">1</Data>
+            <Data ColumnIndex="3" RowIndex="0">1477</Data>
+            <Data ColumnIndex="4" RowIndex="0">900</Data>
+            <Data ColumnIndex="5" RowIndex="0">3</Data>
+            <Data ColumnIndex="0" RowIndex="1">February</Data>
+            <Data ColumnIndex="1" RowIndex="1">2023</Data>
+            <Data ColumnIndex="2" RowIndex="1">2</Data>
+            <Data ColumnIndex="3" RowIndex="1">845</Data>
+            <Data ColumnIndex="4" RowIndex="1">800</Data>
+            <Data ColumnIndex="5" RowIndex="1">3</Data>
+            <Data ColumnIndex="0" RowIndex="2">March</Data>
+            <Data ColumnIndex="1" RowIndex="2">2023</Data>
+            <Data ColumnIndex="2" RowIndex="2">3</Data>
+            <Data ColumnIndex="3" RowIndex="2">964</Data>
+            <Data ColumnIndex="4" RowIndex="2">1000</Data>
+            <Data ColumnIndex="5" RowIndex="2">4</Data>
+            <Data ColumnIndex="0" RowIndex="3">April</Data>
+            <Data ColumnIndex="1" RowIndex="3">2023</Data>
+            <Data ColumnIndex="2" RowIndex="3">4</Data>
+            <Data ColumnIndex="3" RowIndex="3">770</Data>
+            <Data ColumnIndex="4" RowIndex="3">1200</Data>
+            <Data ColumnIndex="5" RowIndex="3">4</Data>
+            <Data ColumnIndex="0" RowIndex="4">May</Data>
+            <Data ColumnIndex="1" RowIndex="4">2023</Data>
+            <Data ColumnIndex="2" RowIndex="4">5</Data>
+            <Data ColumnIndex="3" RowIndex="4">1300</Data>
+            <Data ColumnIndex="4" RowIndex="4">900</Data>
+            <Data ColumnIndex="5" RowIndex="4">2</Data>
+            <Data ColumnIndex="0" RowIndex="5">June</Data>
+            <Data ColumnIndex="1" RowIndex="5">2023</Data>
+            <Data ColumnIndex="2" RowIndex="5">6</Data>
+            <Data ColumnIndex="3" RowIndex="5">644</Data>
+            <Data ColumnIndex="4" RowIndex="5">1100</Data>
+            <Data ColumnIndex="5" RowIndex="5">2</Data>
+            <Data ColumnIndex="0" RowIndex="6">July</Data>
+            <Data ColumnIndex="1" RowIndex="6">2023</Data>
+            <Data ColumnIndex="2" RowIndex="6">7</Data>
+            <Data ColumnIndex="3" RowIndex="6">744</Data>
+            <Data ColumnIndex="4" RowIndex="6">900</Data>
+            <Data ColumnIndex="5" RowIndex="6">3</Data>
+            <Data ColumnIndex="0" RowIndex="7">August</Data>
+            <Data ColumnIndex="1" RowIndex="7">2023</Data>
+            <Data ColumnIndex="2" RowIndex="7">8</Data>
+            <Data ColumnIndex="3" RowIndex="7">1336</Data>
+            <Data ColumnIndex="4" RowIndex="7">1000</Data>
+            <Data ColumnIndex="5" RowIndex="7">3</Data>
+            <Data ColumnIndex="0" RowIndex="8">September</Data>
+            <Data ColumnIndex="1" RowIndex="8">2023</Data>
+            <Data ColumnIndex="2" RowIndex="8">9</Data>
+            <Data ColumnIndex="3" RowIndex="8">850</Data>
+            <Data ColumnIndex="4" RowIndex="8">1300</Data>
+            <Data ColumnIndex="5" RowIndex="8">3</Data>
+            <Data ColumnIndex="0" RowIndex="9">October</Data>
+            <Data ColumnIndex="1" RowIndex="9">2023</Data>
+            <Data ColumnIndex="2" RowIndex="9">10</Data>
+            <Data ColumnIndex="3" RowIndex="9">650</Data>
+            <Data ColumnIndex="4" RowIndex="9">700</Data>
+            <Data ColumnIndex="5" RowIndex="9">3</Data>
+            <Data ColumnIndex="0" RowIndex="10">November</Data>
+            <Data ColumnIndex="1" RowIndex="10">2023</Data>
+            <Data ColumnIndex="2" RowIndex="10">11</Data>
+            <Data ColumnIndex="3" RowIndex="10">996</Data>
+            <Data ColumnIndex="4" RowIndex="10">1000</Data>
+            <Data ColumnIndex="5" RowIndex="10">4</Data>
+            <Data ColumnIndex="0" RowIndex="11">December</Data>
+            <Data ColumnIndex="1" RowIndex="11">2023</Data>
+            <Data ColumnIndex="2" RowIndex="11">12</Data>
+            <Data ColumnIndex="3" RowIndex="11">614</Data>
+            <Data ColumnIndex="4" RowIndex="11">800</Data>
+            <Data ColumnIndex="5" RowIndex="11">3</Data>
+            <Data ColumnIndex="0" RowIndex="12">January</Data>
+            <Data ColumnIndex="1" RowIndex="12">2024</Data>
+            <Data ColumnIndex="2" RowIndex="12">13</Data>
+            <Data ColumnIndex="3" RowIndex="12" />
+            <Data ColumnIndex="4" RowIndex="12">1050</Data>
+            <Data ColumnIndex="5" RowIndex="12" />
+            <Data ColumnIndex="0" RowIndex="13">February</Data>
+            <Data ColumnIndex="1" RowIndex="13">2024</Data>
+            <Data ColumnIndex="2" RowIndex="13">14</Data>
+            <Data ColumnIndex="3" RowIndex="13" />
+            <Data ColumnIndex="4" RowIndex="13">950</Data>
+            <Data ColumnIndex="5" RowIndex="13" />
+            <Data ColumnIndex="0" RowIndex="14">March</Data>
+            <Data ColumnIndex="1" RowIndex="14">2024</Data>
+            <Data ColumnIndex="2" RowIndex="14">15</Data>
+            <Data ColumnIndex="3" RowIndex="14" />
+            <Data ColumnIndex="4" RowIndex="14">1150</Data>
+            <Data ColumnIndex="5" RowIndex="14" />
+          </DataGrid>
+        </rd:DesignerState>
+        <CommandText>&lt;Query&gt;
+  &lt;XmlData&gt;
+    &lt;Data&gt;
+      &lt;Row&gt;
+        &lt;Month&gt;January&lt;/Month&gt;
+        &lt;Year&gt;2023&lt;/Year&gt;
+        &lt;MonthNumber&gt;1&lt;/MonthNumber&gt;
+        &lt;Sales&gt;1477&lt;/Sales&gt;
+        &lt;Budget&gt;900&lt;/Budget&gt;
+        &lt;SalespersonHeadcount&gt;3&lt;/SalespersonHeadcount&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Month&gt;February&lt;/Month&gt;
+        &lt;Year&gt;2023&lt;/Year&gt;
+        &lt;MonthNumber&gt;2&lt;/MonthNumber&gt;
+        &lt;Sales&gt;845&lt;/Sales&gt;
+        &lt;Budget&gt;800&lt;/Budget&gt;
+        &lt;SalespersonHeadcount&gt;3&lt;/SalespersonHeadcount&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Month&gt;March&lt;/Month&gt;
+        &lt;Year&gt;2023&lt;/Year&gt;
+        &lt;MonthNumber&gt;3&lt;/MonthNumber&gt;
+        &lt;Sales&gt;964&lt;/Sales&gt;
+        &lt;Budget&gt;1000&lt;/Budget&gt;
+        &lt;SalespersonHeadcount&gt;4&lt;/SalespersonHeadcount&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Month&gt;April&lt;/Month&gt;
+        &lt;Year&gt;2023&lt;/Year&gt;
+        &lt;MonthNumber&gt;4&lt;/MonthNumber&gt;
+        &lt;Sales&gt;770&lt;/Sales&gt;
+        &lt;Budget&gt;1200&lt;/Budget&gt;
+        &lt;SalespersonHeadcount&gt;4&lt;/SalespersonHeadcount&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Month&gt;May&lt;/Month&gt;
+        &lt;Year&gt;2023&lt;/Year&gt;
+        &lt;MonthNumber&gt;5&lt;/MonthNumber&gt;
+        &lt;Sales&gt;1300&lt;/Sales&gt;
+        &lt;Budget&gt;900&lt;/Budget&gt;
+        &lt;SalespersonHeadcount&gt;2&lt;/SalespersonHeadcount&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Month&gt;June&lt;/Month&gt;
+        &lt;Year&gt;2023&lt;/Year&gt;
+        &lt;MonthNumber&gt;6&lt;/MonthNumber&gt;
+        &lt;Sales&gt;644&lt;/Sales&gt;
+        &lt;Budget&gt;1100&lt;/Budget&gt;
+        &lt;SalespersonHeadcount&gt;2&lt;/SalespersonHeadcount&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Month&gt;July&lt;/Month&gt;
+        &lt;Year&gt;2023&lt;/Year&gt;
+        &lt;MonthNumber&gt;7&lt;/MonthNumber&gt;
+        &lt;Sales&gt;744&lt;/Sales&gt;
+        &lt;Budget&gt;900&lt;/Budget&gt;
+        &lt;SalespersonHeadcount&gt;3&lt;/SalespersonHeadcount&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Month&gt;August&lt;/Month&gt;
+        &lt;Year&gt;2023&lt;/Year&gt;
+        &lt;MonthNumber&gt;8&lt;/MonthNumber&gt;
+        &lt;Sales&gt;1336&lt;/Sales&gt;
+        &lt;Budget&gt;1000&lt;/Budget&gt;
+        &lt;SalespersonHeadcount&gt;3&lt;/SalespersonHeadcount&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Month&gt;September&lt;/Month&gt;
+        &lt;Year&gt;2023&lt;/Year&gt;
+        &lt;MonthNumber&gt;9&lt;/MonthNumber&gt;
+        &lt;Sales&gt;850&lt;/Sales&gt;
+        &lt;Budget&gt;1300&lt;/Budget&gt;
+        &lt;SalespersonHeadcount&gt;3&lt;/SalespersonHeadcount&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Month&gt;October&lt;/Month&gt;
+        &lt;Year&gt;2023&lt;/Year&gt;
+        &lt;MonthNumber&gt;10&lt;/MonthNumber&gt;
+        &lt;Sales&gt;650&lt;/Sales&gt;
+        &lt;Budget&gt;700&lt;/Budget&gt;
+        &lt;SalespersonHeadcount&gt;3&lt;/SalespersonHeadcount&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Month&gt;November&lt;/Month&gt;
+        &lt;Year&gt;2023&lt;/Year&gt;
+        &lt;MonthNumber&gt;11&lt;/MonthNumber&gt;
+        &lt;Sales&gt;996&lt;/Sales&gt;
+        &lt;Budget&gt;1000&lt;/Budget&gt;
+        &lt;SalespersonHeadcount&gt;4&lt;/SalespersonHeadcount&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Month&gt;December&lt;/Month&gt;
+        &lt;Year&gt;2023&lt;/Year&gt;
+        &lt;MonthNumber&gt;12&lt;/MonthNumber&gt;
+        &lt;Sales&gt;614&lt;/Sales&gt;
+        &lt;Budget&gt;800&lt;/Budget&gt;
+        &lt;SalespersonHeadcount&gt;3&lt;/SalespersonHeadcount&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Month&gt;January&lt;/Month&gt;
+        &lt;Year&gt;2024&lt;/Year&gt;
+        &lt;MonthNumber&gt;13&lt;/MonthNumber&gt;
+        &lt;Sales&gt;&lt;/Sales&gt;
+        &lt;Budget&gt;1050&lt;/Budget&gt;
+        &lt;SalespersonHeadcount&gt;&lt;/SalespersonHeadcount&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Month&gt;February&lt;/Month&gt;
+        &lt;Year&gt;2024&lt;/Year&gt;
+        &lt;MonthNumber&gt;14&lt;/MonthNumber&gt;
+        &lt;Sales&gt;&lt;/Sales&gt;
+        &lt;Budget&gt;950&lt;/Budget&gt;
+        &lt;SalespersonHeadcount&gt;&lt;/SalespersonHeadcount&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Month&gt;March&lt;/Month&gt;
+        &lt;Year&gt;2024&lt;/Year&gt;
+        &lt;MonthNumber&gt;15&lt;/MonthNumber&gt;
+        &lt;Sales&gt;&lt;/Sales&gt;
+        &lt;Budget&gt;1150&lt;/Budget&gt;
+        &lt;SalespersonHeadcount&gt;&lt;/SalespersonHeadcount&gt;
+      &lt;/Row&gt;
+    &lt;/Data&gt;
+  &lt;/XmlData&gt;
+  &lt;ElementPath&gt;Data{}/Row{Month(String),Year(String),MonthNumber(Integer),Sales(Integer),Budget(Integer),SalespersonHeadcount(Integer)}&lt;/ElementPath&gt;
+&lt;/Query&gt;</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="Month">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Month</DataField>
+        </Field>
+        <Field Name="Year">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Year</DataField>
+        </Field>
+        <Field Name="Sales">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>Sales</DataField>
+        </Field>
+        <Field Name="MonthNumber">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>MonthNumber</DataField>
+        </Field>
+        <Field Name="Budget">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>Budget</DataField>
+        </Field>
+        <Field Name="SalespersonHeadcount">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>SalespersonHeadcount</DataField>
+        </Field>
+        <Field Name="MonthYear">
+          <Value>=Left(Fields!Month.Value,3) &amp; "-" &amp; Fields!Year.Value</Value>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Textbox Name="ReportTitle">
+            <rd:WatermarkTextbox>Title</rd:WatermarkTextbox>
+            <rd:DefaultName>ReportTitle</rd:DefaultName>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Combo Chart Test - 2 Y Axes with different ranges</Value>
+                    <Style>
+                      <FontFamily>Segoe UI Light</FontFamily>
+                      <FontSize>28pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Height>0.64111in</Height>
+            <Width>8.84375in</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox14">
+            <rd:DefaultName>Textbox14</rd:DefaultName>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Option 1: </Value>
+                    <Style>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>smaller hover chart </Value>
+                    <Style>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>above</Value>
+                    <Style>
+                      <FontStyle>Italic</FontStyle>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> main chart using the same X axis
+
+</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>0.655in</Top>
+            <Left>5.38in</Left>
+            <Height>0.52223in</Height>
+            <Width>3.46375in</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox17">
+            <rd:DefaultName>Textbox15</rd:DefaultName>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Basic Steps: </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>build out both charts</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <ListStyle>Numbered</ListStyle>
+                <ListLevel>1</ListLevel>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Make sure the x axes (months) are set to match up</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <ListStyle>Numbered</ListStyle>
+                <ListLevel>1</ListLevel>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Set the inner plot area to match up</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <ListStyle>Numbered</ListStyle>
+                <ListLevel>1</ListLevel>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Hide the X axes</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <ListStyle>Numbered</ListStyle>
+                <ListLevel>1</ListLevel>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>move the chat title labels from top to the left</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <ListStyle>Numbered</ListStyle>
+                <ListLevel>1</ListLevel>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Adjust formatting as needed to make it easy to review the trend line at ths top against the column line at the bottom. 
+</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <ListStyle>Numbered</ListStyle>
+                <ListLevel>1</ListLevel>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>1.46334in</Top>
+            <Left>5.38in</Left>
+            <Height>3.04166in</Height>
+            <Width>3.46375in</Width>
+            <ZIndex>2</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+        </ReportItems>
+        <Height>5.28778in</Height>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Body>
+      <Width>9in</Width>
+      <Page>
+        <PageFooter>
+          <Height>0.45in</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="ExecutionTime">
+              <rd:DefaultName>ExecutionTime</rd:DefaultName>
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Globals!ExecutionTime</Value>
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Top>0.2in</Top>
+              <Left>4in</Left>
+              <Height>0.25in</Height>
+              <Width>2in</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageFooter>
+        <LeftMargin>1in</LeftMargin>
+        <RightMargin>1in</RightMargin>
+        <TopMargin>1in</TopMargin>
+        <BottomMargin>1in</BottomMargin>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>2</NumberOfRows>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+</Report>

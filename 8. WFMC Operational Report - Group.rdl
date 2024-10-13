@@ -1,0 +1,2238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report MustUnderstand="df" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:df="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition/defaultfontfamily" xmlns:am="http://schemas.microsoft.com/sqlserver/reporting/authoringmetadata">
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>70af1834-1a3b-4b5e-86ff-3f7fd7671332</rd:ReportID>
+  <am:AuthoringMetadata>
+    <am:CreatedBy>
+      <am:Name>PBIRB</am:Name>
+      <am:Version>15.7.1813.16</am:Version>
+    </am:CreatedBy>
+    <am:UpdatedBy>
+      <am:Name>PBIRB</am:Name>
+      <am:Version>15.7.1813.16</am:Version>
+    </am:UpdatedBy>
+    <am:LastModifiedTimestamp>2024-10-13T11:03:14.2886427Z</am:LastModifiedTimestamp>
+  </am:AuthoringMetadata>
+  <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="CopyPaste">
+      <rd:SecurityType>Integrated</rd:SecurityType>
+      <ConnectionProperties>
+        <DataProvider>ENTERDATA</DataProvider>
+        <ConnectString />
+        <IntegratedSecurity>true</IntegratedSecurity>
+      </ConnectionProperties>
+      <rd:DataSourceID>9b36dd4f-425c-4da4-8e79-5f4abcead72a</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>CopyPaste</DataSourceName>
+        <rd:DesignerState>
+          <DataGrid xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+            <RowNumber>20</RowNumber>
+            <ColumnNumber>16</ColumnNumber>
+            <ColumnName ColumnIndex="0" ColumnWidth="100" DataType="String">Business</ColumnName>
+            <ColumnName ColumnIndex="1" ColumnWidth="100" DataType="String">Tuesdays</ColumnName>
+            <ColumnName ColumnIndex="2" ColumnWidth="100" DataType="String">Thursdays</ColumnName>
+            <ColumnName ColumnIndex="3" ColumnWidth="100" DataType="String">Saturdays</ColumnName>
+            <ColumnName ColumnIndex="4" ColumnWidth="100" DataType="String">StallNo</ColumnName>
+            <ColumnName ColumnIndex="5" ColumnWidth="100" DataType="String">PrimaryOwner</ColumnName>
+            <ColumnName ColumnIndex="6" ColumnWidth="100" DataType="String">SecondaryContact</ColumnName>
+            <ColumnName ColumnIndex="7" ColumnWidth="100" DataType="String">OwnerPhone</ColumnName>
+            <ColumnName ColumnIndex="8" ColumnWidth="100" DataType="String">BackupPhone</ColumnName>
+            <ColumnName ColumnIndex="9" ColumnWidth="100" DataType="String">OwnerEmail</ColumnName>
+            <ColumnName ColumnIndex="10" ColumnWidth="100" DataType="String">BackupEmail</ColumnName>
+            <ColumnName ColumnIndex="11" ColumnWidth="100" DataType="String">OwnerAddress</ColumnName>
+            <ColumnName ColumnIndex="12" ColumnWidth="100" DataType="String">BackupAddress</ColumnName>
+            <ColumnName ColumnIndex="13" ColumnWidth="100" DataType="String">Sales2022</ColumnName>
+            <ColumnName ColumnIndex="14" ColumnWidth="100" DataType="String">Sales2023</ColumnName>
+            <ColumnName ColumnIndex="15" ColumnWidth="100" DataType="String">YTDSales2024</ColumnName>
+            <Data ColumnIndex="0" RowIndex="0">Parker's woven goods</Data>
+            <Data ColumnIndex="1" RowIndex="0">1</Data>
+            <Data ColumnIndex="2" RowIndex="0">0</Data>
+            <Data ColumnIndex="3" RowIndex="0">0</Data>
+            <Data ColumnIndex="4" RowIndex="0">1</Data>
+            <Data ColumnIndex="5" RowIndex="0">Parker, Peter</Data>
+            <Data ColumnIndex="6" RowIndex="0">Hogbin, Peria</Data>
+            <Data ColumnIndex="7" RowIndex="0">748-899-3217</Data>
+            <Data ColumnIndex="8" RowIndex="0">450-126-1252</Data>
+            <Data ColumnIndex="9" RowIndex="0">nbrown7@google.co.uk</Data>
+            <Data ColumnIndex="10" RowIndex="0">sbonsulw@wix.com</Data>
+            <Data ColumnIndex="11" RowIndex="0">277 Reindahl Place</Data>
+            <Data ColumnIndex="12" RowIndex="0">539 Dorton Hill</Data>
+            <Data ColumnIndex="13" RowIndex="0">31829.00</Data>
+            <Data ColumnIndex="14" RowIndex="0">42332.57</Data>
+            <Data ColumnIndex="15" RowIndex="0">26415.52</Data>
+            <Data ColumnIndex="0" RowIndex="1">Penelope's Pumpkins</Data>
+            <Data ColumnIndex="1" RowIndex="1">1</Data>
+            <Data ColumnIndex="2" RowIndex="1">1</Data>
+            <Data ColumnIndex="3" RowIndex="1">1</Data>
+            <Data ColumnIndex="4" RowIndex="1">2</Data>
+            <Data ColumnIndex="5" RowIndex="1">Montez, Penelope</Data>
+            <Data ColumnIndex="6" RowIndex="1">Lakes, Tonie</Data>
+            <Data ColumnIndex="7" RowIndex="1">711-117-2079</Data>
+            <Data ColumnIndex="8" RowIndex="1">400-614-4967</Data>
+            <Data ColumnIndex="9" RowIndex="1">drominov8@smugmug.com</Data>
+            <Data ColumnIndex="10" RowIndex="1">ostickleyx@china.com.cn</Data>
+            <Data ColumnIndex="11" RowIndex="1">4 Main Terrace</Data>
+            <Data ColumnIndex="12" RowIndex="1">6921 Eastwood Parkway</Data>
+            <Data ColumnIndex="13" RowIndex="1">64734.00</Data>
+            <Data ColumnIndex="14" RowIndex="1">69265.38</Data>
+            <Data ColumnIndex="15" RowIndex="1">74806.61</Data>
+            <Data ColumnIndex="0" RowIndex="2">Wayne's Woodcuts</Data>
+            <Data ColumnIndex="1" RowIndex="2">1</Data>
+            <Data ColumnIndex="2" RowIndex="2">0</Data>
+            <Data ColumnIndex="3" RowIndex="2">1</Data>
+            <Data ColumnIndex="4" RowIndex="2">3</Data>
+            <Data ColumnIndex="5" RowIndex="2">Wayne, Bruce</Data>
+            <Data ColumnIndex="6" RowIndex="2">Peat, Cyrillus</Data>
+            <Data ColumnIndex="7" RowIndex="2">566-781-0892</Data>
+            <Data ColumnIndex="8" RowIndex="2">672-739-7095</Data>
+            <Data ColumnIndex="9" RowIndex="2">mgumn9@pinterest.com</Data>
+            <Data ColumnIndex="10" RowIndex="2">aoneilly@mozilla.com</Data>
+            <Data ColumnIndex="11" RowIndex="2">97253 Monterey Park</Data>
+            <Data ColumnIndex="12" RowIndex="2">89389 Bultman Road</Data>
+            <Data ColumnIndex="13" RowIndex="2">37784.00</Data>
+            <Data ColumnIndex="14" RowIndex="2">27204.48</Data>
+            <Data ColumnIndex="15" RowIndex="2">29163.20</Data>
+            <Data ColumnIndex="0" RowIndex="3">Caf2Go</Data>
+            <Data ColumnIndex="1" RowIndex="3">1</Data>
+            <Data ColumnIndex="2" RowIndex="3">1</Data>
+            <Data ColumnIndex="3" RowIndex="3">1</Data>
+            <Data ColumnIndex="4" RowIndex="3">4</Data>
+            <Data ColumnIndex="5" RowIndex="3">Lightyear, Buzz</Data>
+            <Data ColumnIndex="6" RowIndex="3">Camilletti, Jenna</Data>
+            <Data ColumnIndex="7" RowIndex="3">914-801-4654</Data>
+            <Data ColumnIndex="8" RowIndex="3">584-269-0088</Data>
+            <Data ColumnIndex="9" RowIndex="3">hfergussona@weebly.com</Data>
+            <Data ColumnIndex="10" RowIndex="3">dschulkez@noaa.gov</Data>
+            <Data ColumnIndex="11" RowIndex="3">26375 Kensington Circle</Data>
+            <Data ColumnIndex="12" RowIndex="3">1 Amoth Circle</Data>
+            <Data ColumnIndex="13" RowIndex="3">81332.00</Data>
+            <Data ColumnIndex="14" RowIndex="3">82145.32</Data>
+            <Data ColumnIndex="15" RowIndex="3">89374.11</Data>
+            <Data ColumnIndex="0" RowIndex="4">Seven sisters and dave</Data>
+            <Data ColumnIndex="1" RowIndex="4">0</Data>
+            <Data ColumnIndex="2" RowIndex="4">1</Data>
+            <Data ColumnIndex="3" RowIndex="4">0</Data>
+            <Data ColumnIndex="4" RowIndex="4">5</Data>
+            <Data ColumnIndex="5" RowIndex="4">London, Sarah</Data>
+            <Data ColumnIndex="6" RowIndex="4">London, Dave</Data>
+            <Data ColumnIndex="7" RowIndex="4">648-211-7106</Data>
+            <Data ColumnIndex="8" RowIndex="4">805-123-9566</Data>
+            <Data ColumnIndex="9" RowIndex="4">tbustardb@msn.com</Data>
+            <Data ColumnIndex="10" RowIndex="4">dadds10@cnet.com</Data>
+            <Data ColumnIndex="11" RowIndex="4">656 Saint Paul Center</Data>
+            <Data ColumnIndex="12" RowIndex="4">91 Pawling Drive</Data>
+            <Data ColumnIndex="13" RowIndex="4">11962.00</Data>
+            <Data ColumnIndex="14" RowIndex="4">14115.16</Data>
+            <Data ColumnIndex="15" RowIndex="4">9372.47</Data>
+            <Data ColumnIndex="0" RowIndex="5">T'challa's Greenhouse</Data>
+            <Data ColumnIndex="1" RowIndex="5">1</Data>
+            <Data ColumnIndex="2" RowIndex="5">1</Data>
+            <Data ColumnIndex="3" RowIndex="5">0</Data>
+            <Data ColumnIndex="4" RowIndex="5">6</Data>
+            <Data ColumnIndex="5" RowIndex="5">Charles, Luke</Data>
+            <Data ColumnIndex="6" RowIndex="5">Ambrosoni, Issiah</Data>
+            <Data ColumnIndex="7" RowIndex="5">117-810-1666</Data>
+            <Data ColumnIndex="8" RowIndex="5">228-183-5983</Data>
+            <Data ColumnIndex="9" RowIndex="5">jprestnerc@comcast.net</Data>
+            <Data ColumnIndex="10" RowIndex="5">mminett11@wix.com</Data>
+            <Data ColumnIndex="11" RowIndex="5">1 Merchant Road</Data>
+            <Data ColumnIndex="12" RowIndex="5">1 Merchant Road</Data>
+            <Data ColumnIndex="13" RowIndex="5">82961.00</Data>
+            <Data ColumnIndex="14" RowIndex="5">73835.29</Data>
+            <Data ColumnIndex="15" RowIndex="5">66156.42</Data>
+            <Data ColumnIndex="0" RowIndex="6">Diana's Dumplings</Data>
+            <Data ColumnIndex="1" RowIndex="6">1</Data>
+            <Data ColumnIndex="2" RowIndex="6">0</Data>
+            <Data ColumnIndex="3" RowIndex="6">0</Data>
+            <Data ColumnIndex="4" RowIndex="6">7</Data>
+            <Data ColumnIndex="5" RowIndex="6">Prince, Diana</Data>
+            <Data ColumnIndex="6" RowIndex="6" />
+            <Data ColumnIndex="7" RowIndex="6">618-188-9958</Data>
+            <Data ColumnIndex="8" RowIndex="6" />
+            <Data ColumnIndex="9" RowIndex="6">desplind@nymag.com</Data>
+            <Data ColumnIndex="10" RowIndex="6">imatveyev12@soundcloud.com</Data>
+            <Data ColumnIndex="11" RowIndex="6">5936 Golf View Trail</Data>
+            <Data ColumnIndex="12" RowIndex="6" />
+            <Data ColumnIndex="13" RowIndex="6">27483.00</Data>
+            <Data ColumnIndex="14" RowIndex="6">37102.05</Data>
+            <Data ColumnIndex="15" RowIndex="6">35321.15</Data>
+            <Data ColumnIndex="0" RowIndex="7">Maidstone Meadery</Data>
+            <Data ColumnIndex="1" RowIndex="7">1</Data>
+            <Data ColumnIndex="2" RowIndex="7">1</Data>
+            <Data ColumnIndex="3" RowIndex="7">1</Data>
+            <Data ColumnIndex="4" RowIndex="7">8</Data>
+            <Data ColumnIndex="5" RowIndex="7">Smith, Lena</Data>
+            <Data ColumnIndex="6" RowIndex="7">Radenhurst, Ambur</Data>
+            <Data ColumnIndex="7" RowIndex="7">467-207-6958</Data>
+            <Data ColumnIndex="8" RowIndex="7">287-117-2341</Data>
+            <Data ColumnIndex="9" RowIndex="7">ksheeringe@google.fr</Data>
+            <Data ColumnIndex="10" RowIndex="7">dmcdunlevy13@mozilla.org</Data>
+            <Data ColumnIndex="11" RowIndex="7">677 Daystar Hill</Data>
+            <Data ColumnIndex="12" RowIndex="7">0437 Corben Trail</Data>
+            <Data ColumnIndex="13" RowIndex="7">83632.00</Data>
+            <Data ColumnIndex="14" RowIndex="7">58542.40</Data>
+            <Data ColumnIndex="15" RowIndex="7">42618.87</Data>
+            <Data ColumnIndex="0" RowIndex="8">Waradeca produce co</Data>
+            <Data ColumnIndex="1" RowIndex="8">1</Data>
+            <Data ColumnIndex="2" RowIndex="8">0</Data>
+            <Data ColumnIndex="3" RowIndex="8">1</Data>
+            <Data ColumnIndex="4" RowIndex="8">9</Data>
+            <Data ColumnIndex="5" RowIndex="8">Magenny, Marven</Data>
+            <Data ColumnIndex="6" RowIndex="8">Sigars, Raquela</Data>
+            <Data ColumnIndex="7" RowIndex="8">906-805-3767</Data>
+            <Data ColumnIndex="8" RowIndex="8">863-908-1978</Data>
+            <Data ColumnIndex="9" RowIndex="8">jchristofidesf@deliciousdays.com</Data>
+            <Data ColumnIndex="10" RowIndex="8">rgabits14@a8.net</Data>
+            <Data ColumnIndex="11" RowIndex="8">002 Anniversary Circle</Data>
+            <Data ColumnIndex="12" RowIndex="8">4 Stang Plaza</Data>
+            <Data ColumnIndex="13" RowIndex="8">77348.00</Data>
+            <Data ColumnIndex="14" RowIndex="8">100552.40</Data>
+            <Data ColumnIndex="15" RowIndex="8">74006.57</Data>
+            <Data ColumnIndex="0" RowIndex="9">Lara's Orchard</Data>
+            <Data ColumnIndex="1" RowIndex="9">1</Data>
+            <Data ColumnIndex="2" RowIndex="9">1</Data>
+            <Data ColumnIndex="3" RowIndex="9">1</Data>
+            <Data ColumnIndex="4" RowIndex="9">10</Data>
+            <Data ColumnIndex="5" RowIndex="9">Croft, Lara</Data>
+            <Data ColumnIndex="6" RowIndex="9">Pridham, Henrik</Data>
+            <Data ColumnIndex="7" RowIndex="9">883-427-0087</Data>
+            <Data ColumnIndex="8" RowIndex="9">909-145-8401</Data>
+            <Data ColumnIndex="9" RowIndex="9">bjosefovicg@comcast.net</Data>
+            <Data ColumnIndex="10" RowIndex="9">kellar15@cargocollective.com</Data>
+            <Data ColumnIndex="11" RowIndex="9">7 Little Fleur Way</Data>
+            <Data ColumnIndex="12" RowIndex="9">668 Randy Plaza</Data>
+            <Data ColumnIndex="13" RowIndex="9">55866.00</Data>
+            <Data ColumnIndex="14" RowIndex="9">46368.78</Data>
+            <Data ColumnIndex="15" RowIndex="9">28192.22</Data>
+            <Data ColumnIndex="0" RowIndex="10">Pottery by Kent</Data>
+            <Data ColumnIndex="1" RowIndex="10">0</Data>
+            <Data ColumnIndex="2" RowIndex="10">1</Data>
+            <Data ColumnIndex="3" RowIndex="10">0</Data>
+            <Data ColumnIndex="4" RowIndex="10">11</Data>
+            <Data ColumnIndex="5" RowIndex="10">Kent, Clark</Data>
+            <Data ColumnIndex="6" RowIndex="10">Kent, Lois</Data>
+            <Data ColumnIndex="7" RowIndex="10">903-414-5827</Data>
+            <Data ColumnIndex="8" RowIndex="10">251-933-4482</Data>
+            <Data ColumnIndex="9" RowIndex="10">fpaviah@meetup.com</Data>
+            <Data ColumnIndex="10" RowIndex="10">gjiggens16@mtv.com</Data>
+            <Data ColumnIndex="11" RowIndex="10">9 Alpine Alley</Data>
+            <Data ColumnIndex="12" RowIndex="10">9 Alpine Alley</Data>
+            <Data ColumnIndex="13" RowIndex="10">99278.00</Data>
+            <Data ColumnIndex="14" RowIndex="10">137003.64</Data>
+            <Data ColumnIndex="15" RowIndex="10">98642.62</Data>
+            <Data ColumnIndex="0" RowIndex="11">Ashecombes Farm</Data>
+            <Data ColumnIndex="1" RowIndex="11">1</Data>
+            <Data ColumnIndex="2" RowIndex="11">1</Data>
+            <Data ColumnIndex="3" RowIndex="11">0</Data>
+            <Data ColumnIndex="4" RowIndex="11">12</Data>
+            <Data ColumnIndex="5" RowIndex="11">Cleaveland, Ameline</Data>
+            <Data ColumnIndex="6" RowIndex="11">Benet, Janela</Data>
+            <Data ColumnIndex="7" RowIndex="11">829-466-3984</Data>
+            <Data ColumnIndex="8" RowIndex="11">557-821-6607</Data>
+            <Data ColumnIndex="9" RowIndex="11">rellwandi@businessinsider.com</Data>
+            <Data ColumnIndex="10" RowIndex="11">oscoterbosh17@infoseek.co.jp</Data>
+            <Data ColumnIndex="11" RowIndex="11">35 Dapin Drive</Data>
+            <Data ColumnIndex="12" RowIndex="11">568 Killdeer Trail</Data>
+            <Data ColumnIndex="13" RowIndex="11">33227.00</Data>
+            <Data ColumnIndex="14" RowIndex="11">45853.26</Data>
+            <Data ColumnIndex="15" RowIndex="11">38883.56</Data>
+            <Data ColumnIndex="0" RowIndex="12">Baa Ram Ewe</Data>
+            <Data ColumnIndex="1" RowIndex="12">1</Data>
+            <Data ColumnIndex="2" RowIndex="12">0</Data>
+            <Data ColumnIndex="3" RowIndex="12">0</Data>
+            <Data ColumnIndex="4" RowIndex="12">13</Data>
+            <Data ColumnIndex="5" RowIndex="12">Danser, Nathalia</Data>
+            <Data ColumnIndex="6" RowIndex="12">Salzberg, Annissa</Data>
+            <Data ColumnIndex="7" RowIndex="12">898-341-7465</Data>
+            <Data ColumnIndex="8" RowIndex="12">898-600-6687</Data>
+            <Data ColumnIndex="9" RowIndex="12">vlakesj@posterous.com</Data>
+            <Data ColumnIndex="10" RowIndex="12">ojindrich18@engadget.com</Data>
+            <Data ColumnIndex="11" RowIndex="12">55 Di Loreto Crossing</Data>
+            <Data ColumnIndex="12" RowIndex="12">28545 Annamark Terrace</Data>
+            <Data ColumnIndex="13" RowIndex="12">51943.00</Data>
+            <Data ColumnIndex="14" RowIndex="12">70123.05</Data>
+            <Data ColumnIndex="15" RowIndex="12">61708.28</Data>
+            <Data ColumnIndex="0" RowIndex="13">Ivy's fresh Arrangements</Data>
+            <Data ColumnIndex="1" RowIndex="13">1</Data>
+            <Data ColumnIndex="2" RowIndex="13">1</Data>
+            <Data ColumnIndex="3" RowIndex="13">1</Data>
+            <Data ColumnIndex="4" RowIndex="13">14</Data>
+            <Data ColumnIndex="5" RowIndex="13">Isley, Pamela</Data>
+            <Data ColumnIndex="6" RowIndex="13" />
+            <Data ColumnIndex="7" RowIndex="13">833-119-2948</Data>
+            <Data ColumnIndex="8" RowIndex="13" />
+            <Data ColumnIndex="9" RowIndex="13">lcardenosak@shinystat.com</Data>
+            <Data ColumnIndex="10" RowIndex="13">asangwin19@hp.com</Data>
+            <Data ColumnIndex="11" RowIndex="13">920 Kings Place</Data>
+            <Data ColumnIndex="12" RowIndex="13" />
+            <Data ColumnIndex="13" RowIndex="13">28585.00</Data>
+            <Data ColumnIndex="14" RowIndex="13">36017.10</Data>
+            <Data ColumnIndex="15" RowIndex="13">38610.33</Data>
+            <Data ColumnIndex="0" RowIndex="14">Waradeca metalworks</Data>
+            <Data ColumnIndex="1" RowIndex="14">1</Data>
+            <Data ColumnIndex="2" RowIndex="14">0</Data>
+            <Data ColumnIndex="3" RowIndex="14">1</Data>
+            <Data ColumnIndex="4" RowIndex="14">15</Data>
+            <Data ColumnIndex="5" RowIndex="14">Eizenhardt, Max</Data>
+            <Data ColumnIndex="6" RowIndex="14">Magner, Gena</Data>
+            <Data ColumnIndex="7" RowIndex="14">613-102-0257</Data>
+            <Data ColumnIndex="8" RowIndex="14">170-557-6437</Data>
+            <Data ColumnIndex="9" RowIndex="14">pcumol@exblog.jp</Data>
+            <Data ColumnIndex="10" RowIndex="14">bbatalini1a@vinaora.com</Data>
+            <Data ColumnIndex="11" RowIndex="14">3946 Mendota Road</Data>
+            <Data ColumnIndex="12" RowIndex="14">27 Sherman Junction</Data>
+            <Data ColumnIndex="13" RowIndex="14">90633.00</Data>
+            <Data ColumnIndex="14" RowIndex="14">80663.37</Data>
+            <Data ColumnIndex="15" RowIndex="14">65176.00</Data>
+            <Data ColumnIndex="0" RowIndex="15">Little Spice Depot</Data>
+            <Data ColumnIndex="1" RowIndex="15">1</Data>
+            <Data ColumnIndex="2" RowIndex="15">1</Data>
+            <Data ColumnIndex="3" RowIndex="15">1</Data>
+            <Data ColumnIndex="4" RowIndex="15">16</Data>
+            <Data ColumnIndex="5" RowIndex="15">Caslane, Gina</Data>
+            <Data ColumnIndex="6" RowIndex="15">Baggarley, Christophorus</Data>
+            <Data ColumnIndex="7" RowIndex="15">763-389-8118</Data>
+            <Data ColumnIndex="8" RowIndex="15">238-963-1063</Data>
+            <Data ColumnIndex="9" RowIndex="15">mnoddlesm@cdc.gov</Data>
+            <Data ColumnIndex="10" RowIndex="15">kgraham1b@weather.com</Data>
+            <Data ColumnIndex="11" RowIndex="15">6241 Sundown Center</Data>
+            <Data ColumnIndex="12" RowIndex="15">1 Farwell Center</Data>
+            <Data ColumnIndex="13" RowIndex="15">84550.00</Data>
+            <Data ColumnIndex="14" RowIndex="15">115833.50</Data>
+            <Data ColumnIndex="15" RowIndex="15">125100.18</Data>
+            <Data ColumnIndex="0" RowIndex="16">Waradeca Bike Repair</Data>
+            <Data ColumnIndex="1" RowIndex="16">1</Data>
+            <Data ColumnIndex="2" RowIndex="16">1</Data>
+            <Data ColumnIndex="3" RowIndex="16">1</Data>
+            <Data ColumnIndex="4" RowIndex="16">17</Data>
+            <Data ColumnIndex="5" RowIndex="16">Leader, Donal</Data>
+            <Data ColumnIndex="6" RowIndex="16">Biglin, Henderson</Data>
+            <Data ColumnIndex="7" RowIndex="16">357-565-6675</Data>
+            <Data ColumnIndex="8" RowIndex="16">871-274-3936</Data>
+            <Data ColumnIndex="9" RowIndex="16">lcicullon@sun.com</Data>
+            <Data ColumnIndex="10" RowIndex="16">gcornier1c@fda.gov</Data>
+            <Data ColumnIndex="11" RowIndex="16">008 Southridge Point</Data>
+            <Data ColumnIndex="12" RowIndex="16">7320 Cascade Parkway</Data>
+            <Data ColumnIndex="13" RowIndex="16">7070.00</Data>
+            <Data ColumnIndex="14" RowIndex="16">5726.70</Data>
+            <Data ColumnIndex="15" RowIndex="16">4260.66</Data>
+            <Data ColumnIndex="0" RowIndex="17">Fresh FarmCo</Data>
+            <Data ColumnIndex="1" RowIndex="17">1</Data>
+            <Data ColumnIndex="2" RowIndex="17">1</Data>
+            <Data ColumnIndex="3" RowIndex="17">0</Data>
+            <Data ColumnIndex="4" RowIndex="17">18</Data>
+            <Data ColumnIndex="5" RowIndex="17">Seakings, Fitz</Data>
+            <Data ColumnIndex="6" RowIndex="17">Starte, Ciro</Data>
+            <Data ColumnIndex="7" RowIndex="17">585-751-3158</Data>
+            <Data ColumnIndex="8" RowIndex="17">297-359-1236</Data>
+            <Data ColumnIndex="9" RowIndex="17">lspendleyo@patch.com</Data>
+            <Data ColumnIndex="10" RowIndex="17">atullett1d@livejournal.com</Data>
+            <Data ColumnIndex="11" RowIndex="17">24 Hallows Park</Data>
+            <Data ColumnIndex="12" RowIndex="17">78243 Pond Lane</Data>
+            <Data ColumnIndex="13" RowIndex="17">77862.00</Data>
+            <Data ColumnIndex="14" RowIndex="17">64625.46</Data>
+            <Data ColumnIndex="15" RowIndex="17">47564.34</Data>
+            <Data ColumnIndex="0" RowIndex="18">Scratch Jam</Data>
+            <Data ColumnIndex="1" RowIndex="18">1</Data>
+            <Data ColumnIndex="2" RowIndex="18">0</Data>
+            <Data ColumnIndex="3" RowIndex="18">0</Data>
+            <Data ColumnIndex="4" RowIndex="18">19</Data>
+            <Data ColumnIndex="5" RowIndex="18">Buntain, Laetitia</Data>
+            <Data ColumnIndex="6" RowIndex="18">Labbez, Riane</Data>
+            <Data ColumnIndex="7" RowIndex="18">512-308-7796</Data>
+            <Data ColumnIndex="8" RowIndex="18">802-888-0475</Data>
+            <Data ColumnIndex="9" RowIndex="18">bcunnellp@cmu.edu</Data>
+            <Data ColumnIndex="10" RowIndex="18">kgave1e@addthis.com</Data>
+            <Data ColumnIndex="11" RowIndex="18">24152 Brown Plaza</Data>
+            <Data ColumnIndex="12" RowIndex="18">8135 Gina Parkway</Data>
+            <Data ColumnIndex="13" RowIndex="18">46078.00</Data>
+            <Data ColumnIndex="14" RowIndex="18">52989.70</Data>
+            <Data ColumnIndex="15" RowIndex="18">32217.74</Data>
+            <Data ColumnIndex="0" RowIndex="19">Waradeco stained glass</Data>
+            <Data ColumnIndex="1" RowIndex="19">1</Data>
+            <Data ColumnIndex="2" RowIndex="19">1</Data>
+            <Data ColumnIndex="3" RowIndex="19">1</Data>
+            <Data ColumnIndex="4" RowIndex="19">20</Data>
+            <Data ColumnIndex="5" RowIndex="19">Perrins, Giffie</Data>
+            <Data ColumnIndex="6" RowIndex="19">Issacof, Sherri</Data>
+            <Data ColumnIndex="7" RowIndex="19">104-120-3809</Data>
+            <Data ColumnIndex="8" RowIndex="19">174-476-3235</Data>
+            <Data ColumnIndex="9" RowIndex="19">jpurtellq@toplist.cz</Data>
+            <Data ColumnIndex="10" RowIndex="19">ncushion1f@intel.com</Data>
+            <Data ColumnIndex="11" RowIndex="19">9981 Bartelt Avenue</Data>
+            <Data ColumnIndex="12" RowIndex="19">41278 Menomonie Parkway</Data>
+            <Data ColumnIndex="13" RowIndex="19">63621.00</Data>
+            <Data ColumnIndex="14" RowIndex="19">87160.77</Data>
+            <Data ColumnIndex="15" RowIndex="19">82977.05</Data>
+          </DataGrid>
+        </rd:DesignerState>
+        <CommandText>&lt;Query&gt;
+  &lt;XmlData&gt;
+    &lt;Data&gt;
+      &lt;Row&gt;
+        &lt;Business&gt;Parker's woven goods&lt;/Business&gt;
+        &lt;Tuesdays&gt;1&lt;/Tuesdays&gt;
+        &lt;Thursdays&gt;0&lt;/Thursdays&gt;
+        &lt;Saturdays&gt;0&lt;/Saturdays&gt;
+        &lt;StallNo&gt;1&lt;/StallNo&gt;
+        &lt;PrimaryOwner&gt;Parker, Peter&lt;/PrimaryOwner&gt;
+        &lt;SecondaryContact&gt;Hogbin, Peria&lt;/SecondaryContact&gt;
+        &lt;OwnerPhone&gt;748-899-3217&lt;/OwnerPhone&gt;
+        &lt;BackupPhone&gt;450-126-1252&lt;/BackupPhone&gt;
+        &lt;OwnerEmail&gt;nbrown7@google.co.uk&lt;/OwnerEmail&gt;
+        &lt;BackupEmail&gt;sbonsulw@wix.com&lt;/BackupEmail&gt;
+        &lt;OwnerAddress&gt;277 Reindahl Place&lt;/OwnerAddress&gt;
+        &lt;BackupAddress&gt;539 Dorton Hill&lt;/BackupAddress&gt;
+        &lt;Category&gt;Crafts&lt;/Category&gt;
+        &lt;Sales2022&gt;31829.00&lt;/Sales2022&gt;
+        &lt;Sales2023&gt;42332.57&lt;/Sales2023&gt;
+        &lt;Sales2024YTD&gt;26415.52&lt;/Sales2024YTD&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Business&gt;Penelope's Pumpkins&lt;/Business&gt;
+        &lt;Tuesdays&gt;1&lt;/Tuesdays&gt;
+        &lt;Thursdays&gt;1&lt;/Thursdays&gt;
+        &lt;Saturdays&gt;1&lt;/Saturdays&gt;
+        &lt;StallNo&gt;2&lt;/StallNo&gt;
+        &lt;PrimaryOwner&gt;Montez, Penelope&lt;/PrimaryOwner&gt;
+        &lt;SecondaryContact&gt;Lakes, Tonie&lt;/SecondaryContact&gt;
+        &lt;OwnerPhone&gt;711-117-2079&lt;/OwnerPhone&gt;
+        &lt;BackupPhone&gt;400-614-4967&lt;/BackupPhone&gt;
+        &lt;OwnerEmail&gt;drominov8@smugmug.com&lt;/OwnerEmail&gt;
+        &lt;BackupEmail&gt;ostickleyx@china.com.cn&lt;/BackupEmail&gt;
+        &lt;OwnerAddress&gt;4 Main Terrace&lt;/OwnerAddress&gt;
+        &lt;BackupAddress&gt;6921 Eastwood Parkway&lt;/BackupAddress&gt;
+        &lt;Category&gt;Produce&lt;/Category&gt;
+        &lt;Sales2022&gt;64734.00&lt;/Sales2022&gt;
+        &lt;Sales2023&gt;69265.38&lt;/Sales2023&gt;
+        &lt;Sales2024YTD&gt;74806.61&lt;/Sales2024YTD&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Business&gt;Wayne's Woodcuts&lt;/Business&gt;
+        &lt;Tuesdays&gt;1&lt;/Tuesdays&gt;
+        &lt;Thursdays&gt;0&lt;/Thursdays&gt;
+        &lt;Saturdays&gt;1&lt;/Saturdays&gt;
+        &lt;StallNo&gt;3&lt;/StallNo&gt;
+        &lt;PrimaryOwner&gt;Wayne, Bruce&lt;/PrimaryOwner&gt;
+        &lt;SecondaryContact&gt;Peat, Cyrillus&lt;/SecondaryContact&gt;
+        &lt;OwnerPhone&gt;566-781-0892&lt;/OwnerPhone&gt;
+        &lt;BackupPhone&gt;672-739-7095&lt;/BackupPhone&gt;
+        &lt;OwnerEmail&gt;mgumn9@pinterest.com&lt;/OwnerEmail&gt;
+        &lt;BackupEmail&gt;aoneilly@mozilla.com&lt;/BackupEmail&gt;
+        &lt;OwnerAddress&gt;97253 Monterey Park&lt;/OwnerAddress&gt;
+        &lt;BackupAddress&gt;89389 Bultman Road&lt;/BackupAddress&gt;
+        &lt;Category&gt;Crafts&lt;/Category&gt;
+        &lt;Sales2022&gt;37784.00&lt;/Sales2022&gt;
+        &lt;Sales2023&gt;27204.48&lt;/Sales2023&gt;
+        &lt;Sales2024YTD&gt;29163.20&lt;/Sales2024YTD&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Business&gt;Caf2Go&lt;/Business&gt;
+        &lt;Tuesdays&gt;1&lt;/Tuesdays&gt;
+        &lt;Thursdays&gt;1&lt;/Thursdays&gt;
+        &lt;Saturdays&gt;1&lt;/Saturdays&gt;
+        &lt;StallNo&gt;4&lt;/StallNo&gt;
+        &lt;PrimaryOwner&gt;Lightyear, Buzz&lt;/PrimaryOwner&gt;
+        &lt;SecondaryContact&gt;Camilletti, Jenna&lt;/SecondaryContact&gt;
+        &lt;OwnerPhone&gt;914-801-4654&lt;/OwnerPhone&gt;
+        &lt;BackupPhone&gt;584-269-0088&lt;/BackupPhone&gt;
+        &lt;OwnerEmail&gt;hfergussona@weebly.com&lt;/OwnerEmail&gt;
+        &lt;BackupEmail&gt;dschulkez@noaa.gov&lt;/BackupEmail&gt;
+        &lt;OwnerAddress&gt;26375 Kensington Circle&lt;/OwnerAddress&gt;
+        &lt;BackupAddress&gt;1 Amoth Circle&lt;/BackupAddress&gt;
+        &lt;Category&gt;Beverages&lt;/Category&gt;
+        &lt;Sales2022&gt;81332.00&lt;/Sales2022&gt;
+        &lt;Sales2023&gt;82145.32&lt;/Sales2023&gt;
+        &lt;Sales2024YTD&gt;89374.11&lt;/Sales2024YTD&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Business&gt;Seven sisters and dave&lt;/Business&gt;
+        &lt;Tuesdays&gt;0&lt;/Tuesdays&gt;
+        &lt;Thursdays&gt;1&lt;/Thursdays&gt;
+        &lt;Saturdays&gt;0&lt;/Saturdays&gt;
+        &lt;StallNo&gt;5&lt;/StallNo&gt;
+        &lt;PrimaryOwner&gt;London, Sarah&lt;/PrimaryOwner&gt;
+        &lt;SecondaryContact&gt;London, Dave&lt;/SecondaryContact&gt;
+        &lt;OwnerPhone&gt;648-211-7106&lt;/OwnerPhone&gt;
+        &lt;BackupPhone&gt;805-123-9566&lt;/BackupPhone&gt;
+        &lt;OwnerEmail&gt;tbustardb@msn.com&lt;/OwnerEmail&gt;
+        &lt;BackupEmail&gt;dadds10@cnet.com&lt;/BackupEmail&gt;
+        &lt;OwnerAddress&gt;656 Saint Paul Center&lt;/OwnerAddress&gt;
+        &lt;BackupAddress&gt;91 Pawling Drive&lt;/BackupAddress&gt;
+        &lt;Category&gt;Entertainment&lt;/Category&gt;
+        &lt;Sales2022&gt;11962.00&lt;/Sales2022&gt;
+        &lt;Sales2023&gt;14115.16&lt;/Sales2023&gt;
+        &lt;Sales2024YTD&gt;9372.47&lt;/Sales2024YTD&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Business&gt;T'challa's Greenhouse&lt;/Business&gt;
+        &lt;Tuesdays&gt;1&lt;/Tuesdays&gt;
+        &lt;Thursdays&gt;1&lt;/Thursdays&gt;
+        &lt;Saturdays&gt;0&lt;/Saturdays&gt;
+        &lt;StallNo&gt;6&lt;/StallNo&gt;
+        &lt;PrimaryOwner&gt;Charles, Luke&lt;/PrimaryOwner&gt;
+        &lt;SecondaryContact&gt;Ambrosoni, Issiah&lt;/SecondaryContact&gt;
+        &lt;OwnerPhone&gt;117-810-1666&lt;/OwnerPhone&gt;
+        &lt;BackupPhone&gt;228-183-5983&lt;/BackupPhone&gt;
+        &lt;OwnerEmail&gt;jprestnerc@comcast.net&lt;/OwnerEmail&gt;
+        &lt;BackupEmail&gt;mminett11@wix.com&lt;/BackupEmail&gt;
+        &lt;OwnerAddress&gt;1 Merchant Road&lt;/OwnerAddress&gt;
+        &lt;BackupAddress&gt;1 Merchant Road&lt;/BackupAddress&gt;
+        &lt;Category&gt;Produce&lt;/Category&gt;
+        &lt;Sales2022&gt;82961.00&lt;/Sales2022&gt;
+        &lt;Sales2023&gt;73835.29&lt;/Sales2023&gt;
+        &lt;Sales2024YTD&gt;66156.42&lt;/Sales2024YTD&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Business&gt;Diana's Dumplings&lt;/Business&gt;
+        &lt;Tuesdays&gt;1&lt;/Tuesdays&gt;
+        &lt;Thursdays&gt;0&lt;/Thursdays&gt;
+        &lt;Saturdays&gt;0&lt;/Saturdays&gt;
+        &lt;StallNo&gt;7&lt;/StallNo&gt;
+        &lt;PrimaryOwner&gt;Prince, Diana&lt;/PrimaryOwner&gt;
+        &lt;SecondaryContact&gt;&lt;/SecondaryContact&gt;
+        &lt;OwnerPhone&gt;618-188-9958&lt;/OwnerPhone&gt;
+        &lt;BackupPhone&gt;&lt;/BackupPhone&gt;
+        &lt;OwnerEmail&gt;desplind@nymag.com&lt;/OwnerEmail&gt;
+        &lt;BackupEmail&gt;imatveyev12@soundcloud.com&lt;/BackupEmail&gt;
+        &lt;OwnerAddress&gt;5936 Golf View Trail&lt;/OwnerAddress&gt;
+        &lt;BackupAddress&gt;&lt;/BackupAddress&gt;
+        &lt;Category&gt;Prepared Foods&lt;/Category&gt;
+        &lt;Sales2022&gt;27483.00&lt;/Sales2022&gt;
+        &lt;Sales2023&gt;37102.05&lt;/Sales2023&gt;
+        &lt;Sales2024YTD&gt;35321.15&lt;/Sales2024YTD&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Business&gt;Maidstone Meadery&lt;/Business&gt;
+        &lt;Tuesdays&gt;1&lt;/Tuesdays&gt;
+        &lt;Thursdays&gt;1&lt;/Thursdays&gt;
+        &lt;Saturdays&gt;1&lt;/Saturdays&gt;
+        &lt;StallNo&gt;8&lt;/StallNo&gt;
+        &lt;PrimaryOwner&gt;Smith, Lena&lt;/PrimaryOwner&gt;
+        &lt;SecondaryContact&gt;Radenhurst, Ambur&lt;/SecondaryContact&gt;
+        &lt;OwnerPhone&gt;467-207-6958&lt;/OwnerPhone&gt;
+        &lt;BackupPhone&gt;287-117-2341&lt;/BackupPhone&gt;
+        &lt;OwnerEmail&gt;ksheeringe@google.fr&lt;/OwnerEmail&gt;
+        &lt;BackupEmail&gt;dmcdunlevy13@mozilla.org&lt;/BackupEmail&gt;
+        &lt;OwnerAddress&gt;677 Daystar Hill&lt;/OwnerAddress&gt;
+        &lt;BackupAddress&gt;0437 Corben Trail&lt;/BackupAddress&gt;
+        &lt;Category&gt;Beverages&lt;/Category&gt;
+        &lt;Sales2022&gt;83632.00&lt;/Sales2022&gt;
+        &lt;Sales2023&gt;58542.40&lt;/Sales2023&gt;
+        &lt;Sales2024YTD&gt;42618.87&lt;/Sales2024YTD&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Business&gt;Waradeca produce co&lt;/Business&gt;
+        &lt;Tuesdays&gt;1&lt;/Tuesdays&gt;
+        &lt;Thursdays&gt;0&lt;/Thursdays&gt;
+        &lt;Saturdays&gt;1&lt;/Saturdays&gt;
+        &lt;StallNo&gt;9&lt;/StallNo&gt;
+        &lt;PrimaryOwner&gt;Magenny, Marven&lt;/PrimaryOwner&gt;
+        &lt;SecondaryContact&gt;Sigars, Raquela&lt;/SecondaryContact&gt;
+        &lt;OwnerPhone&gt;906-805-3767&lt;/OwnerPhone&gt;
+        &lt;BackupPhone&gt;863-908-1978&lt;/BackupPhone&gt;
+        &lt;OwnerEmail&gt;jchristofidesf@deliciousdays.com&lt;/OwnerEmail&gt;
+        &lt;BackupEmail&gt;rgabits14@a8.net&lt;/BackupEmail&gt;
+        &lt;OwnerAddress&gt;002 Anniversary Circle&lt;/OwnerAddress&gt;
+        &lt;BackupAddress&gt;4 Stang Plaza&lt;/BackupAddress&gt;
+        &lt;Category&gt;Produce&lt;/Category&gt;
+        &lt;Sales2022&gt;77348.00&lt;/Sales2022&gt;
+        &lt;Sales2023&gt;100552.40&lt;/Sales2023&gt;
+        &lt;Sales2024YTD&gt;74006.57&lt;/Sales2024YTD&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Business&gt;Lara's Orchard&lt;/Business&gt;
+        &lt;Tuesdays&gt;1&lt;/Tuesdays&gt;
+        &lt;Thursdays&gt;1&lt;/Thursdays&gt;
+        &lt;Saturdays&gt;1&lt;/Saturdays&gt;
+        &lt;StallNo&gt;10&lt;/StallNo&gt;
+        &lt;PrimaryOwner&gt;Croft, Lara&lt;/PrimaryOwner&gt;
+        &lt;SecondaryContact&gt;Pridham, Henrik&lt;/SecondaryContact&gt;
+        &lt;OwnerPhone&gt;883-427-0087&lt;/OwnerPhone&gt;
+        &lt;BackupPhone&gt;909-145-8401&lt;/BackupPhone&gt;
+        &lt;OwnerEmail&gt;bjosefovicg@comcast.net&lt;/OwnerEmail&gt;
+        &lt;BackupEmail&gt;kellar15@cargocollective.com&lt;/BackupEmail&gt;
+        &lt;OwnerAddress&gt;7 Little Fleur Way&lt;/OwnerAddress&gt;
+        &lt;BackupAddress&gt;668 Randy Plaza&lt;/BackupAddress&gt;
+        &lt;Category&gt;Produce&lt;/Category&gt;
+        &lt;Sales2022&gt;55866.00&lt;/Sales2022&gt;
+        &lt;Sales2023&gt;46368.78&lt;/Sales2023&gt;
+        &lt;Sales2024YTD&gt;28192.22&lt;/Sales2024YTD&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Business&gt;Pottery by Kent&lt;/Business&gt;
+        &lt;Tuesdays&gt;0&lt;/Tuesdays&gt;
+        &lt;Thursdays&gt;1&lt;/Thursdays&gt;
+        &lt;Saturdays&gt;0&lt;/Saturdays&gt;
+        &lt;StallNo&gt;11&lt;/StallNo&gt;
+        &lt;PrimaryOwner&gt;Kent, Clark&lt;/PrimaryOwner&gt;
+        &lt;SecondaryContact&gt;Kent, Lois&lt;/SecondaryContact&gt;
+        &lt;OwnerPhone&gt;903-414-5827&lt;/OwnerPhone&gt;
+        &lt;BackupPhone&gt;251-933-4482&lt;/BackupPhone&gt;
+        &lt;OwnerEmail&gt;fpaviah@meetup.com&lt;/OwnerEmail&gt;
+        &lt;BackupEmail&gt;gjiggens16@mtv.com&lt;/BackupEmail&gt;
+        &lt;OwnerAddress&gt;9 Alpine Alley&lt;/OwnerAddress&gt;
+        &lt;BackupAddress&gt;9 Alpine Alley&lt;/BackupAddress&gt;
+        &lt;Category&gt;Crafts&lt;/Category&gt;
+        &lt;Sales2022&gt;99278.00&lt;/Sales2022&gt;
+        &lt;Sales2023&gt;137003.64&lt;/Sales2023&gt;
+        &lt;Sales2024YTD&gt;98642.62&lt;/Sales2024YTD&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Business&gt;Ashecombes Farm&lt;/Business&gt;
+        &lt;Tuesdays&gt;1&lt;/Tuesdays&gt;
+        &lt;Thursdays&gt;1&lt;/Thursdays&gt;
+        &lt;Saturdays&gt;0&lt;/Saturdays&gt;
+        &lt;StallNo&gt;12&lt;/StallNo&gt;
+        &lt;PrimaryOwner&gt;Cleaveland, Ameline&lt;/PrimaryOwner&gt;
+        &lt;SecondaryContact&gt;Benet, Janela&lt;/SecondaryContact&gt;
+        &lt;OwnerPhone&gt;829-466-3984&lt;/OwnerPhone&gt;
+        &lt;BackupPhone&gt;557-821-6607&lt;/BackupPhone&gt;
+        &lt;OwnerEmail&gt;rellwandi@businessinsider.com&lt;/OwnerEmail&gt;
+        &lt;BackupEmail&gt;oscoterbosh17@infoseek.co.jp&lt;/BackupEmail&gt;
+        &lt;OwnerAddress&gt;35 Dapin Drive&lt;/OwnerAddress&gt;
+        &lt;BackupAddress&gt;568 Killdeer Trail&lt;/BackupAddress&gt;
+        &lt;Category&gt;Produce&lt;/Category&gt;
+        &lt;Sales2022&gt;33227.00&lt;/Sales2022&gt;
+        &lt;Sales2023&gt;45853.26&lt;/Sales2023&gt;
+        &lt;Sales2024YTD&gt;38883.56&lt;/Sales2024YTD&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Business&gt;Baa Ram Ewe&lt;/Business&gt;
+        &lt;Tuesdays&gt;1&lt;/Tuesdays&gt;
+        &lt;Thursdays&gt;0&lt;/Thursdays&gt;
+        &lt;Saturdays&gt;0&lt;/Saturdays&gt;
+        &lt;StallNo&gt;13&lt;/StallNo&gt;
+        &lt;PrimaryOwner&gt;Danser, Nathalia&lt;/PrimaryOwner&gt;
+        &lt;SecondaryContact&gt;Salzberg, Annissa&lt;/SecondaryContact&gt;
+        &lt;OwnerPhone&gt;898-341-7465&lt;/OwnerPhone&gt;
+        &lt;BackupPhone&gt;898-600-6687&lt;/BackupPhone&gt;
+        &lt;OwnerEmail&gt;vlakesj@posterous.com&lt;/OwnerEmail&gt;
+        &lt;BackupEmail&gt;ojindrich18@engadget.com&lt;/BackupEmail&gt;
+        &lt;OwnerAddress&gt;55 Di Loreto Crossing&lt;/OwnerAddress&gt;
+        &lt;BackupAddress&gt;28545 Annamark Terrace&lt;/BackupAddress&gt;
+        &lt;Category&gt;Crafts&lt;/Category&gt;
+        &lt;Sales2022&gt;51943.00&lt;/Sales2022&gt;
+        &lt;Sales2023&gt;70123.05&lt;/Sales2023&gt;
+        &lt;Sales2024YTD&gt;61708.28&lt;/Sales2024YTD&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Business&gt;Ivy's fresh Arrangements&lt;/Business&gt;
+        &lt;Tuesdays&gt;1&lt;/Tuesdays&gt;
+        &lt;Thursdays&gt;1&lt;/Thursdays&gt;
+        &lt;Saturdays&gt;1&lt;/Saturdays&gt;
+        &lt;StallNo&gt;14&lt;/StallNo&gt;
+        &lt;PrimaryOwner&gt;Isley, Pamela&lt;/PrimaryOwner&gt;
+        &lt;SecondaryContact&gt;&lt;/SecondaryContact&gt;
+        &lt;OwnerPhone&gt;833-119-2948&lt;/OwnerPhone&gt;
+        &lt;BackupPhone&gt;&lt;/BackupPhone&gt;
+        &lt;OwnerEmail&gt;lcardenosak@shinystat.com&lt;/OwnerEmail&gt;
+        &lt;BackupEmail&gt;asangwin19@hp.com&lt;/BackupEmail&gt;
+        &lt;OwnerAddress&gt;920 Kings Place&lt;/OwnerAddress&gt;
+        &lt;BackupAddress&gt;&lt;/BackupAddress&gt;
+        &lt;Category&gt;Produce&lt;/Category&gt;
+        &lt;Sales2022&gt;28585.00&lt;/Sales2022&gt;
+        &lt;Sales2023&gt;36017.10&lt;/Sales2023&gt;
+        &lt;Sales2024YTD&gt;38610.33&lt;/Sales2024YTD&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Business&gt;Waradeca metalworks&lt;/Business&gt;
+        &lt;Tuesdays&gt;1&lt;/Tuesdays&gt;
+        &lt;Thursdays&gt;0&lt;/Thursdays&gt;
+        &lt;Saturdays&gt;1&lt;/Saturdays&gt;
+        &lt;StallNo&gt;15&lt;/StallNo&gt;
+        &lt;PrimaryOwner&gt;Eizenhardt, Max&lt;/PrimaryOwner&gt;
+        &lt;SecondaryContact&gt;Magner, Gena&lt;/SecondaryContact&gt;
+        &lt;OwnerPhone&gt;613-102-0257&lt;/OwnerPhone&gt;
+        &lt;BackupPhone&gt;170-557-6437&lt;/BackupPhone&gt;
+        &lt;OwnerEmail&gt;pcumol@exblog.jp&lt;/OwnerEmail&gt;
+        &lt;BackupEmail&gt;bbatalini1a@vinaora.com&lt;/BackupEmail&gt;
+        &lt;OwnerAddress&gt;3946 Mendota Road&lt;/OwnerAddress&gt;
+        &lt;BackupAddress&gt;27 Sherman Junction&lt;/BackupAddress&gt;
+        &lt;Category&gt;Crafts&lt;/Category&gt;
+        &lt;Sales2022&gt;90633.00&lt;/Sales2022&gt;
+        &lt;Sales2023&gt;80663.37&lt;/Sales2023&gt;
+        &lt;Sales2024YTD&gt;65176.00&lt;/Sales2024YTD&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Business&gt;Little Spice Depot&lt;/Business&gt;
+        &lt;Tuesdays&gt;1&lt;/Tuesdays&gt;
+        &lt;Thursdays&gt;1&lt;/Thursdays&gt;
+        &lt;Saturdays&gt;1&lt;/Saturdays&gt;
+        &lt;StallNo&gt;16&lt;/StallNo&gt;
+        &lt;PrimaryOwner&gt;Caslane, Gina&lt;/PrimaryOwner&gt;
+        &lt;SecondaryContact&gt;Baggarley, Christophorus&lt;/SecondaryContact&gt;
+        &lt;OwnerPhone&gt;763-389-8118&lt;/OwnerPhone&gt;
+        &lt;BackupPhone&gt;238-963-1063&lt;/BackupPhone&gt;
+        &lt;OwnerEmail&gt;mnoddlesm@cdc.gov&lt;/OwnerEmail&gt;
+        &lt;BackupEmail&gt;kgraham1b@weather.com&lt;/BackupEmail&gt;
+        &lt;OwnerAddress&gt;6241 Sundown Center&lt;/OwnerAddress&gt;
+        &lt;BackupAddress&gt;1 Farwell Center&lt;/BackupAddress&gt;
+        &lt;Category&gt;Prepared Foods&lt;/Category&gt;
+        &lt;Sales2022&gt;84550.00&lt;/Sales2022&gt;
+        &lt;Sales2023&gt;115833.50&lt;/Sales2023&gt;
+        &lt;Sales2024YTD&gt;125100.18&lt;/Sales2024YTD&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Business&gt;Waradeca Bike Repair&lt;/Business&gt;
+        &lt;Tuesdays&gt;1&lt;/Tuesdays&gt;
+        &lt;Thursdays&gt;1&lt;/Thursdays&gt;
+        &lt;Saturdays&gt;1&lt;/Saturdays&gt;
+        &lt;StallNo&gt;17&lt;/StallNo&gt;
+        &lt;PrimaryOwner&gt;Leader, Donal&lt;/PrimaryOwner&gt;
+        &lt;SecondaryContact&gt;Biglin, Henderson&lt;/SecondaryContact&gt;
+        &lt;OwnerPhone&gt;357-565-6675&lt;/OwnerPhone&gt;
+        &lt;BackupPhone&gt;871-274-3936&lt;/BackupPhone&gt;
+        &lt;OwnerEmail&gt;lcicullon@sun.com&lt;/OwnerEmail&gt;
+        &lt;BackupEmail&gt;gcornier1c@fda.gov&lt;/BackupEmail&gt;
+        &lt;OwnerAddress&gt;008 Southridge Point&lt;/OwnerAddress&gt;
+        &lt;BackupAddress&gt;7320 Cascade Parkway&lt;/BackupAddress&gt;
+        &lt;Category&gt;Community Orgs&lt;/Category&gt;
+        &lt;Sales2022&gt;7070.00&lt;/Sales2022&gt;
+        &lt;Sales2023&gt;5726.70&lt;/Sales2023&gt;
+        &lt;Sales2024YTD&gt;4260.66&lt;/Sales2024YTD&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Business&gt;Fresh FarmCo&lt;/Business&gt;
+        &lt;Tuesdays&gt;1&lt;/Tuesdays&gt;
+        &lt;Thursdays&gt;1&lt;/Thursdays&gt;
+        &lt;Saturdays&gt;0&lt;/Saturdays&gt;
+        &lt;StallNo&gt;18&lt;/StallNo&gt;
+        &lt;PrimaryOwner&gt;Seakings, Fitz&lt;/PrimaryOwner&gt;
+        &lt;SecondaryContact&gt;Starte, Ciro&lt;/SecondaryContact&gt;
+        &lt;OwnerPhone&gt;585-751-3158&lt;/OwnerPhone&gt;
+        &lt;BackupPhone&gt;297-359-1236&lt;/BackupPhone&gt;
+        &lt;OwnerEmail&gt;lspendleyo@patch.com&lt;/OwnerEmail&gt;
+        &lt;BackupEmail&gt;atullett1d@livejournal.com&lt;/BackupEmail&gt;
+        &lt;OwnerAddress&gt;24 Hallows Park&lt;/OwnerAddress&gt;
+        &lt;BackupAddress&gt;78243 Pond Lane&lt;/BackupAddress&gt;
+        &lt;Category&gt;Produce&lt;/Category&gt;
+        &lt;Sales2022&gt;77862.00&lt;/Sales2022&gt;
+        &lt;Sales2023&gt;64625.46&lt;/Sales2023&gt;
+        &lt;Sales2024YTD&gt;47564.34&lt;/Sales2024YTD&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Business&gt;Scratch Jam&lt;/Business&gt;
+        &lt;Tuesdays&gt;1&lt;/Tuesdays&gt;
+        &lt;Thursdays&gt;0&lt;/Thursdays&gt;
+        &lt;Saturdays&gt;0&lt;/Saturdays&gt;
+        &lt;StallNo&gt;19&lt;/StallNo&gt;
+        &lt;PrimaryOwner&gt;Buntain, Laetitia&lt;/PrimaryOwner&gt;
+        &lt;SecondaryContact&gt;Labbez, Riane&lt;/SecondaryContact&gt;
+        &lt;OwnerPhone&gt;512-308-7796&lt;/OwnerPhone&gt;
+        &lt;BackupPhone&gt;802-888-0475&lt;/BackupPhone&gt;
+        &lt;OwnerEmail&gt;bcunnellp@cmu.edu&lt;/OwnerEmail&gt;
+        &lt;BackupEmail&gt;kgave1e@addthis.com&lt;/BackupEmail&gt;
+        &lt;OwnerAddress&gt;24152 Brown Plaza&lt;/OwnerAddress&gt;
+        &lt;BackupAddress&gt;8135 Gina Parkway&lt;/BackupAddress&gt;
+        &lt;Category&gt;Prepared Foods&lt;/Category&gt;
+        &lt;Sales2022&gt;46078.00&lt;/Sales2022&gt;
+        &lt;Sales2023&gt;52989.70&lt;/Sales2023&gt;
+        &lt;Sales2024YTD&gt;32217.74&lt;/Sales2024YTD&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Business&gt;Waradeco stained glass&lt;/Business&gt;
+        &lt;Tuesdays&gt;1&lt;/Tuesdays&gt;
+        &lt;Thursdays&gt;1&lt;/Thursdays&gt;
+        &lt;Saturdays&gt;1&lt;/Saturdays&gt;
+        &lt;StallNo&gt;20&lt;/StallNo&gt;
+        &lt;PrimaryOwner&gt;Perrins, Giffie&lt;/PrimaryOwner&gt;
+        &lt;SecondaryContact&gt;Issacof, Sherri&lt;/SecondaryContact&gt;
+        &lt;OwnerPhone&gt;104-120-3809&lt;/OwnerPhone&gt;
+        &lt;BackupPhone&gt;174-476-3235&lt;/BackupPhone&gt;
+        &lt;OwnerEmail&gt;jpurtellq@toplist.cz&lt;/OwnerEmail&gt;
+        &lt;BackupEmail&gt;ncushion1f@intel.com&lt;/BackupEmail&gt;
+        &lt;OwnerAddress&gt;9981 Bartelt Avenue&lt;/OwnerAddress&gt;
+        &lt;BackupAddress&gt;41278 Menomonie Parkway&lt;/BackupAddress&gt;
+        &lt;Category&gt;Crafts&lt;/Category&gt;
+        &lt;Sales2022&gt;63621.00&lt;/Sales2022&gt;
+        &lt;Sales2023&gt;87160.77&lt;/Sales2023&gt;
+        &lt;Sales2024YTD&gt;82977.05&lt;/Sales2024YTD&gt;
+      &lt;/Row&gt;
+    &lt;/Data&gt;
+  &lt;/XmlData&gt;
+  &lt;ElementPath&gt;Data{}/Row{Business(String),Tuesdays(Integer),Thursdays(Integer),Saturdays(Integer),StallNo(String),PrimaryOwner(String),SecondaryContact(String),OwnerPhone(String),BackupPhone(String),OwnerEmail(String),BackupEmail(String),OwnerAddress(String),BackupAddress(String),Category(String),Sales2022(Float),Sales2023(Float),Sales2024YTD(Float)}&lt;/ElementPath&gt;
+&lt;/Query&gt;</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="Business">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Business</DataField>
+        </Field>
+        <Field Name="Tuesdays">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>Tuesdays</DataField>
+        </Field>
+        <Field Name="Thursdays">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>Thursdays</DataField>
+        </Field>
+        <Field Name="Saturdays">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>Saturdays</DataField>
+        </Field>
+        <Field Name="StallNo">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>StallNo</DataField>
+        </Field>
+        <Field Name="PrimaryOwner">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>PrimaryOwner</DataField>
+        </Field>
+        <Field Name="SecondaryContact">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>SecondaryContact</DataField>
+        </Field>
+        <Field Name="OwnerPhone">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>OwnerPhone</DataField>
+        </Field>
+        <Field Name="BackupPhone">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>BackupPhone</DataField>
+        </Field>
+        <Field Name="OwnerEmail">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>OwnerEmail</DataField>
+        </Field>
+        <Field Name="BackupEmail">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>BackupEmail</DataField>
+        </Field>
+        <Field Name="OwnerAddress">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>OwnerAddress</DataField>
+        </Field>
+        <Field Name="BackupAddress">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>BackupAddress</DataField>
+        </Field>
+        <Field Name="Sales2022">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>Sales2022</DataField>
+        </Field>
+        <Field Name="Category">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Category</DataField>
+        </Field>
+        <Field Name="OpenOn">
+          <Value>=IIf(Fields!Tuesdays.Value+Fields!Thursdays.Value+Fields!Saturdays.Value = 3, "Tuesdays, Thursdays, and Saturdays",
+ IIf(Fields!Tuesdays.Value+ Fields!Thursdays.Value= 2, "Tuesdays and Thursdays",
+ IIf(Fields!Tuesdays.Value+ Fields!Saturdays.Value= 2, "Tuesdays and Saturdays", 
+ IIf(Fields!Thursdays.Value+ Fields!Saturdays.Value= 2, "Thursdays and Saturdays",
+Switch(Fields!Tuesdays.Value=1, "Tuesdays", Fields!Thursdays.Value=1, "Thursdays", Fields!Saturdays.Value=1, "Saturdays")
+ ))))</Value>
+        </Field>
+        <Field Name="Sales2023">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>Sales2023</DataField>
+        </Field>
+        <Field Name="Sales2024YTD">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>Sales2024YTD</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Textbox Name="ReportTitle">
+            <rd:WatermarkTextbox>Title</rd:WatermarkTextbox>
+            <rd:DefaultName>ReportTitle</rd:DefaultName>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>WBMC Operational Report Prototype</Value>
+                    <Style>
+                      <FontFamily>Segoe UI Light</FontFamily>
+                      <FontSize>28pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <Height>0.775in</Height>
+            <Width>13in</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Tablix Name="Tablix1">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>0.72875in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.68708in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.57042in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.32042in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.23208in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.29542in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.73709in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.42875in</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>0.25556in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox12">
+                          <rd:DefaultName>Textbox12</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Stall No</Value>
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <RepeatWith>Tablix1</RepeatWith>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox2">
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Business</Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <RepeatWith>Tablix1</RepeatWith>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox14">
+                          <rd:DefaultName>Textbox14</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Owner</Value>
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <RepeatWith>Tablix1</RepeatWith>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox6">
+                          <rd:DefaultName>Textbox6</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Owner Phone</Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <RepeatWith>Tablix1</RepeatWith>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox8">
+                          <rd:DefaultName>Textbox8</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Owner Email</Value>
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <RepeatWith>Tablix1</RepeatWith>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox10">
+                          <rd:DefaultName>Textbox10</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Owner Address</Value>
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <RepeatWith>Tablix1</RepeatWith>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox1">
+                          <rd:DefaultName>Textbox1</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Open On</Value>
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <RepeatWith>Tablix1</RepeatWith>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox19">
+                          <rd:DefaultName>Textbox19</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>2024 YTD Sales</Value>
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <RepeatWith>Tablix1</RepeatWith>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.25556in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="StallNo">
+                          <rd:DefaultName>StallNo</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!StallNo.Value</Value>
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Business">
+                          <rd:DefaultName>Business</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!Business.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="PrimaryOwner">
+                          <rd:DefaultName>PrimaryOwner</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!PrimaryOwner.Value</Value>
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="OwnerPhone">
+                          <rd:DefaultName>OwnerPhone</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!OwnerPhone.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="OwnerEmail">
+                          <rd:DefaultName>OwnerEmail</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!OwnerEmail.Value</Value>
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="OwnerAddress">
+                          <rd:DefaultName>OwnerAddress</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!OwnerAddress.Value</Value>
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="OpenOn">
+                          <rd:DefaultName>OpenOn</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!OpenOn.Value</Value>
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Sales2024YTD">
+                          <rd:DefaultName>Sales2024YTD</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!Sales2024YTD.Value</Value>
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox33">
+                          <rd:DefaultName>Textbox33</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox34">
+                          <rd:DefaultName>Textbox34</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox35">
+                          <rd:DefaultName>Textbox35</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox36">
+                          <rd:DefaultName>Textbox36</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox37">
+                          <rd:DefaultName>Textbox37</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox38">
+                          <rd:DefaultName>Textbox38</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox39">
+                          <rd:DefaultName>Textbox39</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>="Total Sales for " &amp;Fields!Category.Value &amp; " Category:"</Value>
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox40">
+                          <rd:DefaultName>Textbox40</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Sum(Fields!Sales2024YTD.Value)</Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.25556in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox21">
+                          <rd:DefaultName>Textbox21</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox22">
+                          <rd:DefaultName>Textbox22</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox23">
+                          <rd:DefaultName>Textbox23</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox24">
+                          <rd:DefaultName>Textbox24</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox25">
+                          <rd:DefaultName>Textbox25</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox26">
+                          <rd:DefaultName>Textbox26</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox27">
+                          <rd:DefaultName>Textbox27</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Total YTD Sales:</Value>
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox28">
+                          <rd:DefaultName>Textbox28</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Sum(Fields!Sales2024YTD.Value)</Value>
+                                  <Style>
+                                    <FontFamily>Arial</FontFamily>
+                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>1in</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox29">
+                        <rd:DefaultName>Textbox29</rd:DefaultName>
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>Category</Value>
+                                <Style>
+                                  <FontFamily>Arial</FontFamily>
+                                  <FontWeight>Bold</FontWeight>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style />
+                          </Paragraph>
+                        </Paragraphs>
+                        <Style>
+                          <Border>
+                            <Color>LightGrey</Color>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>LightGrey</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                  <TablixMembers>
+                    <TablixMember />
+                  </TablixMembers>
+                  <KeepWithGroup>After</KeepWithGroup>
+                  <RepeatOnNewPage>true</RepeatOnNewPage>
+                </TablixMember>
+                <TablixMember>
+                  <Group Name="Category">
+                    <GroupExpressions>
+                      <GroupExpression>=Fields!Category.Value</GroupExpression>
+                    </GroupExpressions>
+                  </Group>
+                  <SortExpressions>
+                    <SortExpression>
+                      <Value>=Fields!Category.Value</Value>
+                    </SortExpression>
+                  </SortExpressions>
+                  <TablixHeader>
+                    <Size>1in</Size>
+                    <CellContents>
+                      <Textbox Name="Category">
+                        <rd:DefaultName>Category</rd:DefaultName>
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>=Fields!Category.Value</Value>
+                                <Style>
+                                  <FontFamily>Arial</FontFamily>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style />
+                          </Paragraph>
+                        </Paragraphs>
+                        <Style>
+                          <Border>
+                            <Color>LightGrey</Color>
+                            <Style>Solid</Style>
+                          </Border>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                  <TablixMembers>
+                    <TablixMember>
+                      <Group Name="Details" />
+                    </TablixMember>
+                    <TablixMember>
+                      <KeepWithGroup>Before</KeepWithGroup>
+                    </TablixMember>
+                  </TablixMembers>
+                </TablixMember>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>1in</Size>
+                    <CellContents>
+                      <Textbox Name="Textbox31">
+                        <rd:DefaultName>Textbox31</rd:DefaultName>
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value />
+                                <Style>
+                                  <FontFamily>Arial</FontFamily>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style />
+                          </Paragraph>
+                        </Paragraphs>
+                        <Style>
+                          <Border>
+                            <Color>LightGrey</Color>
+                            <Style>Solid</Style>
+                          </Border>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                  <TablixMembers>
+                    <TablixMember />
+                  </TablixMembers>
+                  <KeepWithGroup>Before</KeepWithGroup>
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <RepeatColumnHeaders>true</RepeatColumnHeaders>
+            <FixedColumnHeaders>true</FixedColumnHeaders>
+            <DataSetName>DataSet1</DataSetName>
+            <Top>0.91333in</Top>
+            <Height>1.01668in</Height>
+            <Width>14.00001in</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+        </ReportItems>
+        <Height>2in</Height>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Body>
+      <Width>14.00001in</Width>
+      <Page>
+        <PageFooter>
+          <Height>0.53333in</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="ExecutionTime">
+              <rd:DefaultName>ExecutionTime</rd:DefaultName>
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Globals!ExecutionTime</Value>
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Top>0.06944in</Top>
+              <Left>10.88333in</Left>
+              <Height>0.25in</Height>
+              <Width>2in</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="PageNumber">
+              <rd:DefaultName>PageNumber</rd:DefaultName>
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Globals!PageNumber &amp; " of " &amp; Globals!TotalPages &amp; " pages"</Value>
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <Top>0.2in</Top>
+              <Left>5.19667in</Left>
+              <Height>0.25in</Height>
+              <Width>1in</Width>
+              <ZIndex>1</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageFooter>
+        <PageHeight>8.5in</PageHeight>
+        <PageWidth>14in</PageWidth>
+        <LeftMargin>0.5in</LeftMargin>
+        <RightMargin>0.5in</RightMargin>
+        <TopMargin>1in</TopMargin>
+        <BottomMargin>1in</BottomMargin>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>2</NumberOfRows>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+</Report>
